@@ -25,7 +25,15 @@ SECRET_KEY = 'django-insecure-vx&(cvciai5jtwgy1kp@d6a-!n@gu+vo%@snpcj^$2h-kx)f-*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# settings.py
+
+ALLOWED_HOSTS = [
+    'www.chri2.com',
+    'chri2.com',  # Si tu veux autoriser les deux versions
+    'localhost',  # Si tu veux autoriser les requêtes locales
+    '127.0.0.1',  # Pour les tests en local
+]
+
 
 
 # Application definition
